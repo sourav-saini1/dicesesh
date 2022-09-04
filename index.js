@@ -1,8 +1,8 @@
 var a = Math.floor(Math.random()*6)+1;
 var b = Math.floor(Math.random()*6)+1;
 
-var src1 = "/images/dice"+a+".png";
-var src2 = "/images/dice"+b+".png";
+var src1 = "dice"+a+".png";
+var src2 = "dice"+b+".png";
 document.querySelector(".img1").setAttribute("src",src1);
 
 // you can also do this too 
